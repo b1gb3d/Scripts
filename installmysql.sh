@@ -1,7 +1,8 @@
 #!/bin/bash
 sudo apt update
 sudo apt install --assume-yes mysql-server
-sudo apt install --assume-yes expect
+sudo apt install --assume-yes expec
+exit 0
 
 # SET THIS! Avoid quotes/apostrophes in the password, but do use lowercase + uppercase + numbers + special chars
 # MYSQL_ROOT_PASSWORD='LaboCloud123()' 
